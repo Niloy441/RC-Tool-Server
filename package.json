@@ -1,0 +1,14 @@
+{
+  "name": "rc-license-server-vercel",
+  "version": "1.0.0",
+  "description": "RC TOOLS License Key Server and API Backend for Vercel",
+  "main": "api/index.js",
+  "scripts": {
+    "start": "node api/index.js",
+    "dev": "node api/index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5"
+  }
+}
